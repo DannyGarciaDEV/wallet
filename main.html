@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <div id="cardWidget">
+        <span id="closeButton" onclick="closeWidget()"> <i class="fa-solid fa-x"></i></span>
+        <!-- Your widget content goes here -->
+        Card Number: <input type="text" id="cardNumber"><br>
+        Cardholder Name: <input type="text" id="cardHolderName"><br>
+        Expiration Date: <input type="text" id="expirationDate"><br>
+        <button onclick="addCard()">Add</button>
+    </div>
+    <!-- Additional widget elements -->
+    </div>
+
+    <div class="container">
+        <div class="wallet">
+            <h1>Wallet <i id="walletIcon" class="fa-solid fa-plus"></i></h1>
+            <div class="credit-card">
+                <div class="card-logo">
+                    <!-- You can place your card logo image here -->
+                    <img src="" >
+                </div>
+                <div class="card-number">
+                   
+                </div>
+                <div class="card-holder">
+                    
+                </div>
+                <div class="card-expiry">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="wallet">
+            <h2>Money Spent:  
+                <p id="total-expenses"></p></h2>
+    <div class="expense">
+        <p>Apple: $2000</p>
+    </div>
+    <div class="expense">
+        <p>Publix: $200</p>
+    </div>
+    <div class="expense">
+        <p>PaneraBread: $30</p>
+    </div>
+    <div class="expense">
+        <p>DoorDash: $15</p>
+    </div>
+        </div>
+    
+    </body>
+
+<script src="main.js"></script>
+</html>
